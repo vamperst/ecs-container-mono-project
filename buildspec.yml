@@ -6,7 +6,6 @@ phases:
     commands: 
       - apt-get update -y
       - apt-get install -y jq
-      - apt-get install update
       - curl -L https://npmjs.org/install.sh | sudo sh
       - npm -v
   build:
